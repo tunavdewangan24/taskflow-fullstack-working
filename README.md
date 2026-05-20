@@ -1,74 +1,41 @@
-# TaskFlow 3D - Full Stack Task Management Application
+# TaskFlow Full Stack Working
 
-TaskFlow 3D is a full-stack task management application built for managing daily tasks with a modern 3D dashboard interface. Users can register, login, create tasks, update tasks, delete tasks, track task status, set priorities, add due dates, search tasks, and filter tasks.
-
-## Live Demo
-
-Frontend Live Link:  
-https://tunavdewangan24.github.io/taskflow-fullstack-working/
-
-GitHub Repository:  
-https://github.com/tunavdewangan24/taskflow-fullstack-working
-
-> Note: The frontend is deployed on GitHub Pages. Backend features like login, register, and task saving require the backend server to be running locally or hosted separately.
+TaskFlow is a full stack task management web application built with a separate frontend and backend structure.
 
 ## Features
-
-- User registration and login
-- JWT authentication
-- Password hashing using bcrypt
-- Create, read, update, and delete tasks
-- Task priority management: Low, Medium, High
-- Task status tracking: Pending, In Progress, Completed
-- Due date support
-- Dashboard statistics
-- Search and filter functionality
-- Responsive design
-- Professional 3D CSS effects
-- JSON-based local database
+- Create and manage tasks
+- Full stack project structure
+- Backend API support
+- Frontend user interface
+- Ready for future authentication and dashboard upgrades
 
 ## Tech Stack
+- Frontend: React / Vite
+- Backend: Node.js / Express
+- Database: MongoDB
+- Version Control: Git and GitHub
 
-### Frontend
-- React.js
-- Vite
-- CSS3
-- GitHub Pages
+## Project Structure
+
+backend - Backend API code
+frontend - Frontend UI code
+docs - Project documentation
+
+## How to Run
 
 ### Backend
-- Node.js
-- Express.js
-- JWT
-- bcryptjs
-- JSON file database
+cd backend
+npm install
+npm run dev
 
-## Folder Structure
+### Frontend
+cd frontend
+npm install
+npm run dev
 
-```txt
-taskflow-fullstack-working/
-│
-├── backend/
-│   ├── server.js
-│   ├── package.json
-│   ├── data/
-│   │   └── database.json
-│   └── src/
-│       ├── controllers/
-│       ├── routes/
-│       ├── middleware/
-│       ├── db/
-│       └── utils/
-│
-├── frontend/
-│   ├── index.html
-│   ├── package.json
-│   ├── vite.config.js
-│   └── src/
-│       ├── App.jsx
-│       ├── main.jsx
-│       └── style.css
-│
-├── README.md
-├── START_ALL.bat
-├── START_BACKEND.bat
-└── START_FRONTEND.bat
+## Future Improvements
+- Add login and signup system
+- Add task priority feature
+- Add due date reminders
+- Add dashboard analytics
+- Improve responsive design
